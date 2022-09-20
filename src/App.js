@@ -46,6 +46,7 @@ function App() {
       </div>
       <div>
         <h4>Sample App Layout Using Grid</h4>
+        <div>Try resizing the window less than 768px</div>
         <div className="row">
           <div className="col-1">Button1</div>
           <div className="col-1">Button2</div>
@@ -56,7 +57,7 @@ function App() {
           <div className="col-2">Support</div>
         </div>
         <div className="row">
-          <div className="col-2">Navigation Buttons
+          <div className="col-2 col-s2">Navigation Buttons
             <div><button>Uno</button></div>
             <div><button>Dos</button></div>
             <div><button>Tres</button></div>
@@ -71,7 +72,7 @@ function App() {
             <div><button>Ces</button></div>
 
           </div>
-          <div className="col-8">
+          <div className="col-8 col-s8">
             <div> * &#123;
               box-sizing: border-box;
               &#125;</div>
